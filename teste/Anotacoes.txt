@@ -1,0 +1,18 @@
+Instalar no node.js
+
+abrir o terminal do node
+
+node -v - Verificar versão node
+npm -v - Verificar versao npm
+
+npm install -g @angular/cli - Instalar o CLI do angular
+
+ng new nome-projeto - Criar pasta do projeto em Angular
+
+ng serve - Iniciar o servidor do projeto
+
+Comando para erro de escript no ng serve
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+
+http://localhost:4200/
+

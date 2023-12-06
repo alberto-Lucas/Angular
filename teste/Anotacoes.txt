@@ -7,7 +7,7 @@ npm -v - Verificar versao npm
 
 npm install -g @angular/cli - Instalar o CLI do angular
 
-ng new nome-projeto - Criar pasta do projeto em Angular
+ng new nome-porjeto --no-standalone --routing --ssr=false - Criar pasta do projeto em Angular
 
 ng serve - Iniciar o servidor do projeto
 
@@ -16,3 +16,7 @@ Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
 
 http://localhost:4200/
 
+criando componente no angular
+
+ng g component components/first-component --module=app.module   
+ng g component nome-pasta/nome-componente --module=app.module   
